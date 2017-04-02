@@ -1,0 +1,23 @@
+{
+  "name": "message_board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "redis": "^2.7.1"
+  },
+  "dependencies": {
+    "material-ui": "^0.17.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
